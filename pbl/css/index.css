@@ -1,0 +1,25 @@
+@charset 'utf-8';  /*为了查看中文注释*/
+
+html,
+body,
+div,
+ul,li,
+img {
+	margin: 0;
+	padding: 0;
+}
+.waterfall {
+	position: relative;
+}
+.waterfall-item {
+	position: absolute;
+	width: 200px;
+	padding: 4px;
+	border: 1px solid #999;
+}
+.waterfall-item h2 {
+	margin: 5px 0;
+}
+.waterfall-item img {
+	width: 100%;
+}
